@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы исходного кода\Units">
+      <UniqueIdentifier>{e79d8913-4794-4d31-aa69-09f94ea18aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Units">
+      <UniqueIdentifier>{87971399-a6f6-4959-b5e8-6df40e76511b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\GameObjects">
+      <UniqueIdentifier>{589ddc80-6d7c-4fed-bfc8-f75a64a22ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Заголовочные файлы\GameObjects">
+      <UniqueIdentifier>{f1e8ac2d-fff6-4211-b446-63c0ef54fb10}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Resources.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Файлы исходного кода\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Interact.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Skeleton11.cpp">
+      <Filter>Файлы исходного кода\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Goblin6.cpp">
+      <Filter>Файлы исходного кода\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="Warrior1.cpp">
+      <Filter>Файлы исходного кода\Units</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Файлы исходного кода\GameObjects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Resources.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Inclusion.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Unit.h">
+      <Filter>Заголовочные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Skeleton11.h">
+      <Filter>Заголовочные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Goblin6.h">
+      <Filter>Заголовочные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="Warrior1.h">
+      <Filter>Заголовочные файлы\Units</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Заголовочные файлы\GameObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
